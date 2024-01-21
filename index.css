@@ -1,0 +1,31 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.nav .logo h1{
+  font-family: 'Rock Salt', cursive;
+  color: rgb(53, 45, 33);
+}
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 600px;
+  align-items: center;
+  border: 0.1px solid ;
+  background-color: rgba(129, 174, 174, 0.333);
+}
+.nav .navlist ol{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  gap: 50px;
+}
+.nav .navlist ol a{
+  text-decoration: none;
+}
+.nav .navlist ol a li{
+  font-size: 20px;
+}
+

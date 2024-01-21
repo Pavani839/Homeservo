@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./customerSignup.css">
+</head>
+<body>
+  <div class="main">
+    <div class="card">
+      <div class="form">
+        <div class="title">Welcome</div>
+        <div class="subtitle">Let's create your account!</div>
+    
+        <div class="input-container ic1">
+          <input placeholder="" type="text" required class="input" id="fullname">
+          <div class="cut"></div>
+          <label class="iLabel" id="fullnamelab" for="fullname">Full Name</label>
+        </div>
+    
+        <div class="input-container ic2">
+          <input placeholder="" type="text" class="input" id="email">
+          <div class="cut cut-short"></div>
+          <label class="iLabel" id="emaillabel" for="email">Email</label>
+        </div>
+
+        <div class="input-container ic2">
+          <input placeholder="" type="tel" class="input" id="phone">
+          <div class="cut"></div>
+          <label class="iLabel" id="phonelabel" for="phone">Phone</label>
+        </div>
+
+        <div class="input-container ic2">
+          <input placeholder="" type="password" class="input" id="password">
+          <div class="cut"></div>
+          <label class="iLabel" id="passwordlabel" for="password">Password</label>
+        </div>
+
+        <div class="input-container ic2">
+          <input placeholder="" type="number" class="input" id="famcount">
+          <div class="cut"></div>
+          <label class="iLabel" id="famcountlabel" for="famcount">FamilyCount</label>
+        </div>
+        
+        <button class="submit" type="text">submit</button>
+        <p class="signin">Already have an acount ? <a href="./customerLogin.html">Signin</a> </p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./customerSignup.js"></script>
+</body>
+</html>
